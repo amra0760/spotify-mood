@@ -19,12 +19,7 @@
   <body>
     
     <div class="container-fluid">
-      <h1>How are you feeling right now?</h1>
-      <form method="post" action="/result">
-        <input type="text" placeholder="Enter a Mood" name="mood">
-        <br>
-        <input type="submit" value="Find Me Some Songs!">
-      </form>
+      <h1><%= params[:mood]%></h1></h1>
     </div>
     
   </body>
